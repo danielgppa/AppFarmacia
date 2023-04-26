@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/remedio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do remédio 1" />
+
+        <EditText
+            android:id="@+id/doses1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Doses por dia (1)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/caixa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade por caixa (1)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/remedio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do remédio 2" />
+
+        <EditText
+            android:id="@+id/doses2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Doses por dia (2)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/caixa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade por caixa (2)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/remedio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do remédio 3" />
+
+        <EditText
+            android:id="@+id/doses3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Doses por dia (3)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/caixa3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade por caixa (3)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/remedio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do remédio 4" />
+
+        <EditText
+            android:id="@+id/doses4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Doses por dia (4)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/caixa4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade por caixa (4)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/remedio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do remédio 5" />
+
+        <EditText
+            android:id="@+id/doses5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Doses por dia (5)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/caixa5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade por caixa (5)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/remedio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do remédio 6" />
+
+        <EditText
+            android:id="@+id/doses6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Doses por dia (6)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/caixa6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade por caixa (6)"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular" />
+
+        <TextView
+            android:id="@+id/resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
